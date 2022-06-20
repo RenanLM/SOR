@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversão</title>
+    <style>
+        body {
+        background-color: darkslategray;
+        margin: 0;
+        font-family: Georgia, serif;
+        }
+        .central {
+        width: 350px;
+        height: 300px;
+        margin: 100px 500px 200px;
+        font-family: 'georgia';
+        font-size:1.6em;
+        color: whitesmoke;
+    }
+    .max-width {
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'georgia';
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+        gap: 20px 50px;
+            }
+    </style>
+</head>
+<body>
+    <div class="max-width">
+        <h1>Resultado da Conversão</h1><hr>
+        <ul>
+        <li>Valor convertido para: {{ nome }} Graus Celsius</li>
+        </ul>
+</body>
+</html>
